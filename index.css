@@ -1,0 +1,77 @@
+@font-face {
+    font-family: digitalClock;
+    src: url("fonts/Technology-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.hero {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 350px;
+    background-color: #142952;
+}
+
+.home {
+    text-align: center;
+}
+
+.guest {
+    text-align: center;
+}
+
+#home-score {
+    padding: 0 20px;
+    margin: 20px 0;
+    background-color: black;
+    color: lightcoral;
+    font-size: 80px;
+    font-family: digitalClock;
+    border-radius: 8px;
+}
+
+#guest-score {
+    padding: 0 20px;
+    margin: 20px 0;
+    background-color: black;
+    color: lightcoral;
+    font-size: 80px;
+    font-family: digitalClock;
+    border-radius: 8px;
+}
+
+.heading {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 58px;
+}
+
+#home-h3 {
+    font-size: 50px;
+}
+
+#guest-h3 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.btn-score {
+    font-family: digitalClock;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #3b92cc;
+    background-color: #142952;
+    border: 2px solid #3b92cc;
+    border-radius: 10px;
+}
